@@ -1,3 +1,6 @@
 rootProject.name = 'DESIGN_PATTERNS_LLD_JAVA'
 include 'single_responsibility'
+include 'src:main:builder'
+findProject(':src:main:builder')?.name = 'builder'
+include 'builder'
 
