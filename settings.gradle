@@ -3,4 +3,5 @@ include 'single_responsibility'
 include 'src:main:builder'
 findProject(':src:main:builder')?.name = 'builder'
 include 'builder'
+include 'singleton'
 
