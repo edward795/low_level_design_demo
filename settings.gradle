@@ -12,4 +12,6 @@ include 'src:main:java:abstract_factory'
 findProject(':src:main:java:abstract_factory')?.name = 'abstract_factory'
 include 'src:main:java:Builder'
 findProject(':src:main:java:Builder')?.name = 'Builder'
+include 'src:main:java:prototype'
+findProject(':src:main:java:prototype')?.name = 'prototype'
 
