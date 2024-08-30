@@ -26,4 +26,8 @@ include 'src:main:java:Decorator'
 findProject(':src:main:java:Decorator')?.name = 'Decorator'
 include 'src:main:java:Facade'
 findProject(':src:main:java:Facade')?.name = 'Facade'
+include 'src:main:java:Proxy'
+findProject(':src:main:java:Proxy')?.name = 'Proxy'
+include 'src:main:java:composite'
+findProject(':src:main:java:composite')?.name = 'composite'
 
