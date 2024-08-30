@@ -30,4 +30,8 @@ include 'src:main:java:Proxy'
 findProject(':src:main:java:Proxy')?.name = 'Proxy'
 include 'src:main:java:composite'
 findProject(':src:main:java:composite')?.name = 'composite'
+include 'src:main:java:ChainOfResponsibiliity'
+findProject(':src:main:java:ChainOfResponsibiliity')?.name = 'ChainOfResponsibiliity'
+include 'src:main:java:Command'
+findProject(':src:main:java:Command')?.name = 'Command'
 
